@@ -254,12 +254,15 @@ body {
   padding-bottom: 5px; }
 
 @media screen and (max-width: 768px) {
+  .sidebar__infocard {
+    text-align: center; }
   .js-mobile-menu {
     display: block; }
   .list-menu-top {
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    text-align: center; }
   .js-mobile-menu-wrap {
     max-height: 0;
     transition: .5s;
