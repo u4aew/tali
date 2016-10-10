@@ -320,6 +320,37 @@ body {
 .main-content_des_btn {
   margin-bottom: 15px; }
 
+.b-product_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.b-product__title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold; }
+
+.b-product-images {
+  text-align: center; }
+
+.b-product__images {
+  display: inline-block; }
+
+.b-product__images img {
+  max-width: 300px;
+  width: 100%; }
+
+.b-product-images__description ul {
+  text-align: center;
+  list-style: none; }
+
+.b-product-specification--table {
+  width: 100%; }
+
+.b-product-specification--table tbody tr:nth-child(2n+1) {
+  background-color: #f7f7ef; }
+
 @media screen and (max-width: 768px) {
   .sidebar__infocard {
     text-align: center; }
