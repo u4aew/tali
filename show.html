@@ -6,12 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <script src="build/js/jquery-3.1.1.min.js"></script>
-    <link rel="stylesheet" href="build/style/normalize.css">
-    <link rel="stylesheet" href="build/style/bootstrap.css">
-    <link rel="stylesheet" href="build/style/bootstrap-normalize.css">
-    <link rel="stylesheet" href="build/style/popup.css">
-    <link rel="stylesheet" href="build/style/style.css">
+    <link rel="stylesheet" href="build/style/style.min.css">
 </head>
 <body>
 <div class="wrapper">
@@ -110,8 +105,6 @@
                             </ul>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -146,30 +139,25 @@
 
                     </div>
                     <div class="sidebar__infocard">
-                        <div class="sidebar__infocard__info">
-                            <div class="sidebar__infocard__info__pic">
-                                <img src="build/img/mail1.png" alt="">
-                            </div>
-                            <div class="sidebar__infocard__info__desc">
-                                Barnaul@tali.ru
-                            </div>
-                        </div>
-
-                        <div class="sidebar__infocard__info">
-                            <div class="sidebar__infocard__info__pic">
-                                <img src="build/img/skype1.png" alt="">
-                            </div>
-                            <div class="sidebar__infocard__info__desc">
-                                Skype telfer.barnaul
-                            </div>
-                        </div>
-                        <div class="sidebar__infocard__info">
-                            <div class="sidebar__infocard__info__pic">
-                                <img src="build/img/icq1.png" alt="">
-                            </div>
-                            <div class="sidebar__infocard__info__desc">
-                                ICQ 452081423
-                            </div>
+                        <div class="b-table-info">
+                            <table>
+                                <thead>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><img src="build/img/mail1.png" alt="Email Барнаульские тали"></td>
+                                    <td>barnaul@tali.ru</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="build/img/skype1.png" alt="Skype Барнаульские тали"></td>
+                                    <td>Skype <a href="">telfer.barnaul</a></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="build/img/icq1.png" alt="icq Барнаульские тали"></td>
+                                    <td>ICQ 452081423</td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <div class="sidebar__banner hidden-xs">
@@ -259,14 +247,14 @@
                         <div class="b-product-title">
                             Технические характеристики тали электрической ТЭ 100 грузоподъемностью 1 тонна
                         </div>
+                        <a href="#inline" class="default_popup">Default Inline</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="clearfix">
-</div>
+<div class="clearfix"></div>
 <div class="footer">
     <div class="row">
         <div class="col-lg-3">
@@ -282,8 +270,15 @@
         </div>
     </div>
 </div>
-<script src="build/js/script.js"></script>
-<script src="build/js/jquery.fancybox.js"></script>
-<script src="build/js/jquery.popup.min.js"></script>
+<div id="inline" style="display:none">
+    <input type="text">
+    <br>
+    <input type="text">
+    <br>
+    <button>
+        Отправить
+    </button>
+</div>
+<script src="build/js/all.min.js"></script>
 </body>
 </html>
