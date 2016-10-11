@@ -351,6 +351,29 @@ body {
 .b-product-specification--table tbody tr:nth-child(2n+1) {
   background-color: #f7f7ef; }
 
+.b-product-specification--table tbody tr:hover {
+  background-color: #d2eafa; }
+
+.b-product-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center; }
+
+.b-table-info {
+  display: block;
+  margin: 0 auto; }
+
+.b-table-info {
+  padding-top: 5px; }
+  .b-table-info table {
+    margin: 0 auto; }
+  .b-table-info table tr td {
+    padding: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: middle; }
+
 @media screen and (max-width: 768px) {
   .sidebar__infocard {
     text-align: center; }
