@@ -99,7 +99,7 @@ $WidthWrapper: 95%;
 
 .search-input {
   width: 100%;
-  vertical-align: -webkit-baseline-middle;
+  vertical-align:middle;
 }
 
 .search-btn {
@@ -108,7 +108,6 @@ $WidthWrapper: 95%;
 
 .search-btn {
   background: #468EB7;
-  font-family: Calibri;
   font-size: 18px;
   font-weight: 700;
   color: #FFFFFF !important;
@@ -437,6 +436,8 @@ $WidthWrapper: 95%;
   font-weight: bold;
   font-size: 18px;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .b-table-info {
