@@ -534,13 +534,115 @@ $WidthWrapper: 95%;
 .b-category__product__logo {
   flex-grow: 1;
   flex-basis: 15%;
-  min-height: 20px;
   text-align: center;
 }
 
 .b-category__product__table {
-  min-height: 20px;
   flex-grow: 1;
   flex-basis: 80%;
   text-align: center;
+}
+
+.main-content {
+  padding-top: 20px;
+}
+
+.b-description__btn {
+  text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.b-description__title h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.b-gallery-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.b-gallery-list__item {
+  margin: 10px 15px;
+}
+
+.b-gallery-list__item img {
+  max-width: 340px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.b-options h2 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.options-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px
+}
+
+.options-table tr td {
+  width: 50%;
+}
+
+.options-table tr td:nth-child(2n+1) {
+  border-right: 2px solid white;
+}
+
+.options-table tr:nth-child(2n+1) {
+  background-color: white;
+}
+
+.options-table tr:nth-child(2n) {
+  background-color: #f7f7ef;
+}
+
+.download-list {
+  margin: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-list__item a {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.download-list__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.download-list__info {
+  text-align: center;
+  cursor: pointer;
+}
+
+.download-list__info:hover {
+  color: blue;
+}
+
+.modal {
+  border-radius: 0px;
 }

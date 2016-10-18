@@ -33,7 +33,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('production-js', function () {
-    return gulp.src(['src/js/jquery.js', 'src/js/jquery.popup.min.js', 'src/js/jquery.fancybox.js', 'src/js/script.js'])
+    return gulp.src(['src/js/jquery.js', 'src/js/bootstrap.js', 'src/js/jquery.fancybox.js', 'src/js/script.js'])
         .pipe(concat('all.js'))
         .pipe(jsmin())
         .pipe(rename({suffix: '.min'}))
