@@ -3,6 +3,10 @@
     padding: 0 !important;
 }
 
+.wrapper {
+    height: 5000px;
+}
+
 .b-personal-area_current-color {
     background-color: #0072bc;
 }
@@ -77,4 +81,8 @@
 .b-mmenu-header__close {
     text-align: right;
     font-size: 18px;
+}
+
+.b-mmenu-content {
+    height: 4000px;
 }
