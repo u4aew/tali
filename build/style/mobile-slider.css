@@ -23,7 +23,8 @@
 .header-menu {
     max-width: 800px;
     width: 100%;
-    height: 44px;
+    min-height: 44px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -42,14 +43,16 @@
 }
 
 .b-personal-area {
-    height: 44px;
+    min-height: 44px;
+    height: 100%;
     width: 100%;
 
 }
 
 .b-personal-area__link {
     display: block;
-    height: 44px;
+    min-height: 44px;
+    height: 100%;
     padding-top: 12px;
     text-align: center;
     color: white;
