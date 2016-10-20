@@ -8,15 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/build/style/bootstrap.css">
     <link rel="stylesheet" href="/build/style/slidebars.min.css">
+    <link rel="stylesheet" href="/build/style/font-awesome.css">
     <link rel="stylesheet" href="/build/style/mobile-slider.css">
     <script src="/build/js/jquery.js"></script>
 </head>
 <body>
-<div canvas="container">
+<div class="wrapper" canvas="container">
     <div class="header">
         <div class="header-menu">
             <div class="row">
-                <div class="col-xs-3">
+                <div class="col-xs-3" style="padding: 0">
                     <div class="b-mmenu-btn">
                         <button class="btn-mmenu js-toggle-mmenu-overlay">
                             <span></span>
@@ -40,8 +41,19 @@
     </div>
 </div>
 <div off-canvas="mmenu-overlay left overlay">
-    <div>
-
+    <div class="b-mmenu-header">
+        <div class="row">
+            <div class="col-xs-7" style="padding: 0">
+                Каталог
+            </div>
+            <div class="col-xs-5" style="padding: 0">
+                <div class="b-mmenu-header__close">
+                <button class="btn-mmenu-close js-toggle-mmenu-overlay">
+                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <script src="/build/js/slidebars.min.js"></script>
