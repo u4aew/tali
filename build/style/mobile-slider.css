@@ -96,10 +96,6 @@ ul {
     color: white;
 }
 
-.b-mmenu-content {
-    height: 4000px;
-}
-
 .b-mmenu-header__name {
     font-size: 18px;
     text-transform: uppercase;
@@ -129,4 +125,24 @@ ul {
 .list-b-mmenu-content li a:hover {
     color: #1565c0;
 
+}
+
+.b-mmenu-footer {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 90%;
+
+}
+
+.list-b-mmenu-footer {
+    list-style: none;
+}
+
+.list-b-mmenu-footer li a {
+    font-size: 14px;
+    color: #7c7c7c;
+    display: block;
+    text-decoration: none !important;
+    padding: 5px 0;
+    border-bottom: 1px solid #626262;
 }
