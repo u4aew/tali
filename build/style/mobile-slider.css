@@ -157,7 +157,6 @@ ul {
 }
 
 .content hr {
-    width: 95%;
     border-color: black;
     margin: 3px auto;
 }
@@ -201,4 +200,16 @@ ul {
 
 .product__btn {
     padding-top: 15px;
+}
+
+.product__pic {
+
+}
+
+.product__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    width: 100%;
 }
