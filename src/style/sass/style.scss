@@ -617,8 +617,8 @@ $WidthWrapper: 95%;
 
 .download-list__item a {
   display: block;
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -644,5 +644,5 @@ $WidthWrapper: 95%;
 }
 
 .modal {
-  border-radius: 0px;
+  border-radius: 0;
 }
