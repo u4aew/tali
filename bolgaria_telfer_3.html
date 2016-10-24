@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="stylesheet" href="/build/style/style.min.css">
+    <style>
+        .sidebar {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <div class="wrapper">
@@ -112,6 +117,9 @@
     <div class="main">
         <div class="row">
             <div class="col-md-3">
+                <div class="js-sidebar-open">
+                    <button class="js-btn-sidebar-open">Показать контакты</button>
+                </div>
                 <div class="sidebar">
                     <div class="sidebar__infocard">
                         <div class="sidebar__phone">
@@ -187,14 +195,20 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2" style="padding: 0;text-align: center;padding-bottom: 15px">
                                     <ul class="download-list">
                                         <li class="download-list__item">
                                             <a href="" download="Техниченские-харакетеристики.pdf"
                                                style="background-image: url('/build/img/pdf-icon.png')"
                                                title="Загрузить Технические Характеристики"> </a>
                                         </li>
+                                        <li class="download-list__item">
+                                            <a href="#" style="background-image: url('/build/img/microsoft-icon.png')">
+
+                                            </a>
+                                        </li>
                                     </ul>
+                                    Скачать техническе характеристики pdf/word
                                 </div>
                                 <div class="col-md-3">
                                     <div class="b-description__btn">
@@ -204,7 +218,6 @@
                                         <button class="button">
                                             Контакты
                                         </button>
-
                                     </div>
                                 </div>
                             </div>
@@ -280,7 +293,7 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="b-allert">
+                        <div class="b-alert">
                             <b> Внимание! </b>
                             <p> Технические характеристики могут быть изменены в связи с модернизацией. Так же
                                 на некоторые модели может устанавливаться дополнительное оборудование, что может влиять
@@ -317,7 +330,6 @@
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
-
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
@@ -335,5 +347,12 @@
     </div>
 </div>
 <script src="/build/js/all.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".js-btn-sidebar-open").on("click",function () {
+            $(".sidebar").toggle();
+        })
+    })
+</script>
 </body>
 </html>

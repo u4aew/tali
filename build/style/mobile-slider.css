@@ -12,10 +12,6 @@ ul {
     margin: 0;
 }
 
-.wrapper {
-
-}
-
 .b-personal-area_current-color {
     background-color: #0072bc;
 }
@@ -212,4 +208,54 @@ ul {
     background-position: center;
     height: 380px;
     width: 100%;
+}
+
+.js-shadow::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.js-shadow-active {
+
+}
+
+.download-list__item li {
+    margin: 15px;
+}
+
+.product__cont-number {
+    text-align: center;
+    font-weight: bold;
+}
+
+.product__specification table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.product__specification table tr {
+    border-bottom: 1px solid black;
+}
+
+.product__specification table tr td {
+    padding: 3px;
+}
+
+.product__cont {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.b-download a {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.b-download {
+    text-align: center;
 }

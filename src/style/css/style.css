@@ -492,11 +492,18 @@ body {
   background-color: #f7f7ef; }
 
 .download-list {
+  text-align: center; }
+
+.download-list li {
+  display: inline-block; }
+
+.download-list {
   margin: 15px;
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  border: 1px solid #468eb7; }
 
 .download-list__item a {
   display: block;
@@ -512,7 +519,8 @@ body {
   flex-direction: column;
   align-items: center;
   font-weight: bold;
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin: 10px; }
 
 .download-list__info {
   text-align: center;
@@ -523,3 +531,22 @@ body {
 
 .modal {
   border-radius: 0; }
+
+.js-btn-sidebar-open {
+  border: none;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #468eb7;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold; }
+
+.js-btn-sidebar-open:hover {
+  background-color: #2398ff; }
+
+.download-list__item {
+  display: inline-block; }

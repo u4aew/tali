@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="stylesheet" href="/build/style/style.min.css">
+    <style>
+        .sidebar {
+            display: none;
+        }
+
+        .sidebar-active {
+            display: block;
+        }
+    </style>
 </head>
 <body>
 <div class="wrapper">
@@ -15,7 +24,7 @@
             <div class="col-md-3 col-sm-12 col-xs-12">
                 <div class="b-logo">
                     <div class="b-logo-image">
-                        <a href="/">  <img src="build/img/logo.gif" alt=""></a>
+                        <img src="build/img/logo.gif" alt="">
                     </div>
                     <div class="b-logo-name">
                         Барнаульские <br>тали
@@ -112,6 +121,10 @@
     <div class="main">
         <div class="row">
             <div class="col-md-3">
+                <div id="cont"
+                     style="margin: 10px 0;background-color: lightseagreen;color: white;font-size: 24px;padding: 15px;text-align: center;font-weight: bold;text-transform: uppercase">
+                    Показать контакты
+                </div>
                 <div class="sidebar">
                     <div class="sidebar__infocard">
                         <div class="sidebar__phone">
@@ -213,9 +226,9 @@
                             Таль электрическая Т 630 грузоподъёмностью 6,3 тонны</h1></div>
                         <div class="b-gallery">
                             <ul class="b-gallery-list">
-                                <li class="b-gallery-list__item"><a rel="group" href="/build/img/t-10-normal-247x300.jpg"
+                                <li class="b-gallery-list__item"><a rel="group" href="/build/img/Т-10-норм-размер.jpg"
                                                                     class="fancybox"><img
-                                        src="/build/img/t-10-normal-247x300.jpg" alt=""></a></li>
+                                        src="/build/img/Т-10-норм-размер.jpg" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="b-options">
@@ -335,5 +348,12 @@
     </div>
 </div>
 <script src="/build/js/all.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#cont").on('click', function () {
+            $(".sidebar").toggleClass("sidebar-active");
+        })
+    })
+</script>
 </body>
 </html>
